@@ -1,8 +1,11 @@
-# React + Vite
+# Task
+This application is created with vite and npm 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+setps to run your local system : 
 
-Currently, two official plugins are available:
+ step 1 - create a appwrite account and create a project 
+ step 2 - go to the setting of the project in appwrite and copy the "endpoint url" and "project id "
+ step 3 - rename the .env.sample to .env and past all the ids inside the env variable
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ At last run the command 
+ npm run dev
